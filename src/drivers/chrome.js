@@ -10,7 +10,7 @@ module.exports = () => {
   options.addArguments("--disable-default-apps");
   options.addArguments("--disable-infobars");
   options.addArguments("--disable-extensions");
-  //options.headless();
+  options.headless();
 
   const service = new Chrome.ServiceBuilder(chromeDriver.binPath());
 
