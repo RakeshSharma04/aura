@@ -1,7 +1,3 @@
-/**
- * Created by ssg0265 on 2/12/20.
- */
-
 const chromeDriver = require("../drivers/chrome");
 const assert = require('assert');
 const { By } = require('selenium-webdriver');
